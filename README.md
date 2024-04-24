@@ -47,6 +47,7 @@ Please note that the GitHub Action downloads the recommended blocklists and whit
 4. Now go the 'Actions' from the top bar and select 'Update Filter Lists' under workflows.
 5. Now select 'Run workflow' and again select 'Run workflow' from the pop up windows.
 6. It will take upto 7-8 minutes so wait & after it's complete you can check 'the CZTA Filter List, from: Cloudflare dashboard -> Zero Trust -> Gateway -> Firewall Policies.
+### It's recommended that you should set your private DNS settings to 'Off' & if you see any ad's by chance then restart the internet connection of your device or main router.
 
 ### DNS setup for Cloudflare Gateway
 
