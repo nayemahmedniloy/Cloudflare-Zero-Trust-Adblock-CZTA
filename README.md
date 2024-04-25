@@ -21,6 +21,25 @@ Cloudflare Zero Trust Gateway allows it's user to create custom rules to filter 
 - Whitelist support, allowing you to prevent false positives and breakage by forcing trusted domains to always be unblocked.
 - Optional health check: Sends a ping request ensuring continuous monitoring and alerting for the workflow execution.
 
+## Used `Blocklist` for this project
+
+All the blocklists used on this project are fetched from `https://github.com/AdguardTeam/AdGuardSDNSFilter`
+
+### Updated Blocklists:
+ `"https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers_firstparty.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt",
+  "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt",
+  "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_thirdparty.txt",
+  "https://raw.githubusercontent.com/easylist/easylist/master/easylist_adult/adult_adservers.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_servers.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_servers_firstparty.txt",
+  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt",
+  "https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers.txt",
+  "https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_thirdparty.txt",
+  "https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_international.txt",
+  "https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_thirdparty_international.txt",`
+
 ## Usage 
 
 ### Run in GitHub Actions
